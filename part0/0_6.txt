@@ -1,0 +1,5 @@
+title 0_6
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note left of browser: uses java code it fetched from the server to get the new jsondata array so no HTTP request is needed
+server->browser: Status code 201 created
